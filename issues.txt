@@ -1,0 +1,13 @@
+npm install --save-dev typescript
+npx tsc --int
+npm install --save buffer
+
+
+in package.json: Add tsc to build
+
+ "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build tsc",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
